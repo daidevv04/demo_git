@@ -18,6 +18,11 @@ public class Main {
     public static int tinhTong(int a, int b){
         return a + b;
     }
+
+
+    public static int tinhTru(int a, int b){
+        return a - b;
+    }
 }
 
 
