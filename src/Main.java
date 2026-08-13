@@ -17,7 +17,9 @@ public class Main {
 
         System.out.print(tinhTong(a,b) + "\n");
     }
-
+    //
+    //
+///
     public static int tinhTong(int a, int b){
         return a + b;
     }
