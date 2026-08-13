@@ -13,6 +13,4 @@ public class Main {
         return a + b;
     }
 
-
-    System.out.print("húihkfd");
 }
