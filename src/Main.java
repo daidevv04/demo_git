@@ -7,12 +7,19 @@ public class Main {
         for(int i = 1; i < 10; i++){
             System.out.print("Xin chào Đài số: " + i + "\n");
         }
+
+        Scanner sc  = new Scanner(System.in);
+
+        System.out.print("Nhap a: ");
+        int a = sc.nextInt();
+        System.out.print("Nhap b: ");
+        int b  = sc.nextInt();
+
+        System.out.print(tinhTong(a,b) + "\n");
     }
 
     public static int tinhTong(int a, int b){
         return a + b;
     }
 
-
-    System.out.print("húihkfd");
 }
